@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.calculater {
+  width: 345px;
+  height: 514px;
+  display: flex;
+  flex-direction: column;
+}
+.calculater__icon_vertical {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculater__icon_vertical p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.calculater__result {
+  box-sizing: border-box;
+  width: 100%;
+  height: 104px;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 2px solid #292C35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculater__body {
+  width: 100%;
+  height: 410px;
+  background-color: #292C35;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+}
+.calculater__left {
+  width: 75%;
+  height: 350px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calculater__left_up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.calculater__left_up .calculater__icon_vertical p {
+  background-color: #8B8B8B;
+}
+.calculater__left_down {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.calculater__left_down .calculater__icon_vertical p {
+  background-color: white;
+}
+.calculater__right {
+  width: 25%;
+  height: 100%;
+}
+.calculater__right .calculater__right_up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calculater__right .calculater__right_up .calculater__icon_horizontal p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #E09145;
+  border-radius: 5px;
+}
+.calculater__right .calculater__right_up .calculater__icon_horizontal:last-child {
+  position: relative;
+}
+.calculater__right .calculater__right_up .calculater__icon_horizontal:last-child p {
+  position: absolute;
+  right: -25px;
+  width: 140px;
+}/*# sourceMappingURL=style.css.map */
